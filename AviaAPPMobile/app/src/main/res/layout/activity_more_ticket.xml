@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5baaf5"
+    tools:context=".MoreTicketActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Cities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#000"
+                android:background="@drawable/rounded_edittext"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/NumberSeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/DateDeparture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/DateDelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/DateArrival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/AviaCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/NamePlane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/NumberFlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/NameRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/MoreAboutRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="О тарифе"
+                android:backgroundTint="#eb7100"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/Transfers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пересадки"
+                android:backgroundTint="#eb7100"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/Buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Купить"
+                android:backgroundTint="#eb7100"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/Check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Опоздания"
+                android:backgroundTint="#eb7100"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Назад"
+                android:backgroundTint="#eb7100"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="#fff"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
